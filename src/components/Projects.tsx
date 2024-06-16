@@ -1,6 +1,9 @@
 export const Projects = () => {
   return (
     <>
+      <div className="flex flex-col w-full">
+        <div className="divider divider-neutral"></div>
+      </div>
       <div id="workshops" className="mt-200 mb-10">
         {" "}
       </div>

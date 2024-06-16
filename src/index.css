@@ -1,3 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Vibes';
+    src: url('../src/fonts/GreatVibes-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('../src/fonts/Lato-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato-Italic';
+  src: url('../src/fonts/Lato-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('../src/fonts/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway-Bold';
+  src: url('../src/fonts/Raleway-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway-Italic';
+  src: url('../src/fonts/Raleway-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway-Regular';
+  src: url('../src/fonts/Raleway-Regular.ttf') format('truetype');
+}
+
+@layer base {
+  html {
+    @apply font-ralewayregular;
+  }
+  p {
+    @apply text-primary; /* Aplica el color primario */
+  }
+  h2 {
+    @apply text-secondary; /* Aplica el color secundario */
+  }
+  h3 {
+    @apply text-tertiary; /* Aplica el color terciario */
+  }
+}

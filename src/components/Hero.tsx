@@ -9,17 +9,19 @@ export const Hero = () => {
     >
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
-        <div className="max-w-md">
+        <div className="max-w-md mx-auto">
           <a
             href="#"
-            className="flex items-center py-5 px-2 text-white hover:text-blue-300"
+            className="flex items-center justify-center py-5 px-2 text-white hover:text-blue-300"
           >
-            <img src={equiethos} alt="Logo de Equi-ethos"></img>
+            <span className="font-vibes text-8xl">Equi-ethos</span>
           </a>
           <p className="mb-5">
             Un viaje de autodescubrimiento a través de la música y la filosofía
           </p>
-          <a href="#history" className="btn btn-primary">Comienza</a>
+          <a href="#history" className="btn btn-primary">
+            Comienza
+          </a>
         </div>
       </div>
     </div>

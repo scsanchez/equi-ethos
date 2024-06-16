@@ -11,7 +11,7 @@ const Navbar = () => {
           <div className="flex space-x-4">
             <div>
               <a href="#" className="flex items-center py-5 px-2 text-white hover:text-blue-300">
-                <span className="font-bold">Equi-ethos</span>
+                <span className="font-vibes text-2xl">Equi-ethos</span>
               </a>
             </div>
             <div className="hidden md:flex items-center space-x-1">
