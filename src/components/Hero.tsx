@@ -1,4 +1,5 @@
 import background from "../images/background.jpg";
+import equiethos from "../images/croped.svg";
 
 export const Hero = () => {
   return (
@@ -9,11 +10,16 @@ export const Hero = () => {
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold">Equi-ethos</h1>
+          <a
+            href="#"
+            className="flex items-center py-5 px-2 text-white hover:text-blue-300"
+          >
+            <img src={equiethos} alt="Logo de Equi-ethos"></img>
+          </a>
           <p className="mb-5">
-          Buscamos explorar como se conectan en nuestra vida la música, las emociones y la filosofía.
+            Un viaje de autodescubrimiento a través de la música y la filosofía
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <a href="#history" className="btn btn-primary">Comienza</a>
         </div>
       </div>
     </div>

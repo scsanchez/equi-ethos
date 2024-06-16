@@ -5,25 +5,25 @@ import philosophyImage from "../images/philosophy.png";
 const ourFundamentals = [
   {
     title: "Música",
-    description: "La música descripcion como herramienta.",
+    description: "Teoría: fundamentos musicales y propiedades del sonido.Música en directo, improvisaciones musicales con diferentes instrumentos, percusión corporal, audición musical y cinco ritmos.",
     image: musicImage,
   },
   {
     title: "Emociones",
-    description: "Emociones descripción herramienta",
+    description: "Teoría de la emoción. Autoconocimiento, música como herramienta para gestionar las emociones, propuestas de ejercicios prácticos en directo y para casa.",
     image: emotionsImage,
   },
   {
     title: "Filosofía",
-    description: "Filosofía, claro, no podría faltar",
+    description: "Teoría: cosmovisión de autores y autoras. Diálogo con los pensadores y pensadoras",
     image: philosophyImage,
   },
 ];
 
 export const Cards = () => {
   return (
-    <div id="whatwedo" className="flex flex-wrap justify-center items-center">
-      <div className="font-bold text-4xl text-center w-full mt-10 mb-10">¿Qué hacemos?</div>
+    <div id="whatwedo" className="flex flex-wrap justify-center items-center mt-10 mb-10">
+      <div className="font-bold text-4xl text-center w-full ">¿Qué hacemos?</div>
       {ourFundamentals.map((fundamental) => (
         <div
           key={fundamental.title}
