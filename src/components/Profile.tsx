@@ -22,8 +22,7 @@ export const Profile = () => {
         <div className="divider lg:divider-horizontal"></div>
         <div className="flex-1 h-auto card bg-base-300 rounded-box place-items-center p-3 ml-3 mr-3">
           Sergio Carrascal. Músico graduado en el Conservatorio Profesional de
-          Música de Salamanca. Estudiante de filosofía en la Univerisad Nacional
-          de Educación a Distancia (UNED). Biólogo (USAL). Colaborador en varios
+          Música de Salamanca. Biólogo (USAL). Colaborador en varios
           grupos de música de cámara. Clarinetista en la Banda de Música Tomás
           Bretón. Músico de la compañía de Teatro Playback “Entrespejos” desde
           2017

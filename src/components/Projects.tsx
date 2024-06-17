@@ -88,7 +88,7 @@ export const Projects = () => {
 
           <li>
             <hr />
-            <div className="timeline-middle">
+            <div className="timeline-middle ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
@@ -132,7 +132,7 @@ export const Projects = () => {
             <div className="timeline-start md:text-end mb-10">
               <time className="font-mono italic">2024</time>
               <div className="text-lg font-black">
-                Cambio de nombre “Equi-ethos”
+                Cambio de nombre <span className="font-vibes text-2xl"> Equi-ethos</span>
               </div>
             </div>
             <hr />

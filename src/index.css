@@ -41,13 +41,4 @@
   html {
     @apply font-ralewayregular;
   }
-  p {
-    @apply text-primary; /* Aplica el color primario */
-  }
-  h2 {
-    @apply text-secondary; /* Aplica el color secundario */
-  }
-  h3 {
-    @apply text-tertiary; /* Aplica el color terciario */
-  }
 }

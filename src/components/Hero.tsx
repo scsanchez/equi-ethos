@@ -1,5 +1,4 @@
 import background from "../images/background.jpg";
-import equiethos from "../images/croped.svg";
 
 export const Hero = () => {
   return (
@@ -16,9 +15,11 @@ export const Hero = () => {
           >
             <span className="font-vibes text-8xl">Equi-ethos</span>
           </a>
-          <p className="mb-5">
-            Un viaje de autodescubrimiento a través de la música y la filosofía
+          <p className="mb-5 text-white">Un viaje de autodescubrimiento </p>
+          <p className="mb-5 text-white">
+            a través de la música y la filosofía
           </p>
+
           <a href="#history" className="btn btn-primary">
             Comienza
           </a>
