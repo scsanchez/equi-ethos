@@ -1,13 +1,8 @@
 export const Projects = () => {
   return (
     <>
-      <div className="flex flex-col w-full">
-        <div className="divider divider-neutral"></div>
-      </div>
-      <div id="workshops" className="mt-200 mb-10">
-        {" "}
-      </div>
-      <div className="font-bold text-4xl text-center w-full ">
+      <div id="workshops" className=""></div>
+      <div className="font-bold text-4xl text-center w-full my-12">
         Nuestros talleres
       </div>
       <div className="w-4/5 mx-auto">
@@ -132,7 +127,8 @@ export const Projects = () => {
             <div className="timeline-start md:text-end mb-10">
               <time className="font-mono italic">2024</time>
               <div className="text-lg font-black">
-                Cambio de nombre <span className="font-vibes text-2xl"> Equi-ethos</span>
+                Cambio de nombre{" "}
+                <span className="font-vibes text-2xl"> Equi-ethos</span>
               </div>
             </div>
             <hr />

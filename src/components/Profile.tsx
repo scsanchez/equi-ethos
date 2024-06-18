@@ -2,7 +2,7 @@ export const Profile = () => {
   return (
     <>
       <div
-        id="whoarewe"
+        id="whoweare"
         className="font-bold text-center my-10 text-4xl text-center w-full"
       >
         ¿Quienes somos?

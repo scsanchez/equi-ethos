@@ -1,6 +1,6 @@
-import musicImage from "../images/music.png";
-import emotionsImage from "../images/emotions.png";
-import philosophyImage from "../images/philosophy.png";
+import musicImage from "../assets/images/music.png";
+import emotionsImage from "../assets/images/emotions.png";
+import philosophyImage from "../assets/images/philosophy.png";
 
 const ourFundamentals = [
   {
@@ -22,12 +22,13 @@ const ourFundamentals = [
 
 export const Cards = () => {
   return (
-    <div id="whatwedo" className="flex flex-wrap justify-center items-center mt-10 mb-10">
-      <div className="font-bold text-4xl text-center w-full ">¿Qué hacemos?</div>
+    
+    <div id="whatwedo" className="flex flex-wrap justify-between my-10">
+      <div className="font-bold text-4xl text-center w-full">¿Qué hacemos?</div>
       {ourFundamentals.map((fundamental) => (
         <div
           key={fundamental.title}
-          className="card w-96 bg-base-100 shadow-xl m-4 mt-15 mb-15"
+          className="card w-96 h-100 bg-base-100 shadow-xl mx-4 my-15"
         >
           <figure className="px-10 pt-10">
             <img
@@ -36,8 +37,8 @@ export const Cards = () => {
               className="rounded w-24 h-24"
             />
           </figure>
-          <div className="card-body items-center text-center">
-            <h2 className="card-title">{fundamental.title}</h2>
+          <div className="card-body items-center ">
+            <h2 className="card-title text-center">{fundamental.title}</h2>
             <p>{fundamental.description}</p>
           </div>
         </div>

@@ -1,5 +1,5 @@
-import email from "../images/email.svg";
-import instagram from "../images/instagram.svg";
+import email from "../assets/images/email.svg";
+import instagram from "../assets/images/instagram.svg";
 
 const Contact = () => {
   const contactTab = [
@@ -37,10 +37,10 @@ const Contact = () => {
           <div className="flex gap-5 justify-center flex-wrap h-auto lg:flex-nowrap ">
             {contactTab.map((x, index) => {
               return (
-                <div key={index} className="card w-full  shadow-xl h-auto ">
-                  <div className="card-body items-center flex-grow-0  text-center">
+                <div key={index} className="card group shadow-xl hover:bg-sky-500 hover:ring-sky-500">
+                  <div className="card-body group items-center flex-grow-0 text-center ">
                     <img
-                      className="card-title w-24 h-24"
+                      className="card-title w-24 h-24 group-hover:fill-white"
                       src={x.icon}
                       onClick={() => {
                         if (x.url) {
@@ -49,9 +49,9 @@ const Contact = () => {
                       }}
                       alt={x.title}
                     ></img>
-                    <p className="text-lg font-bold my-3">{x.title}</p>
+                    <p className="text-lg font-bold my-3 group-hover:text-white">{x.title}</p>
                     <div className="">
-                      <p className=" text-lg font-semibold">{x.desription}</p>
+                      <p className=" text-lg font-semibold group-hover:text-white">{x.desription}</p>
                     </div>
                   </div>
                 </div>
