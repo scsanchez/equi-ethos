@@ -1,5 +1,5 @@
-import roci from "../assets/images/Artboard 1.png";
-import sergio from "../assets/images/image.png";
+import rocio from "../assets/images/rocio.webp";
+import sergio from "../assets/images/sergio.webp";
 
 export const Profile = () => {
   return (
@@ -12,7 +12,7 @@ export const Profile = () => {
       </div>
       <div className="flex flex-col w-full lg:flex-row">
         <div className="flex-1 h-auto card  rounded-box place-items-center p-3 text-justify ml-3 mr-3">
-          <img src={roci} alt="Rocío Gentil"  style={{ width: '70%', height: '70%' }}/>
+          <img src={rocio} alt="Rocío Gentil"  style={{ width: '70%', height: '70%' }}/>
           <p className="ml-1">
             Mª del Rocío Gentil. Psicóloga especializada en intervención
             criminológica y victimológica. Psico/sociodramatista. Colegiada en
