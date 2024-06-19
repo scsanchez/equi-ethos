@@ -1,8 +1,10 @@
 export const Projects = () => {
   return (
     <>
-      <div id="workshops" className=""></div>
-      <div className="font-bold text-4xl text-center w-full my-12">
+      <div
+        id="workshops"
+         className="font-bold text-8xl text-center w-full pt-16 my-20"
+      >
         Nuestros talleres
       </div>
       <div className="w-4/5 mx-auto">

@@ -1,11 +1,25 @@
-import background from "../assets/images/background.jpg";
+import background from "../assets/images/juntos.svg";
+import presentation from "../assets/wey.mp4";
 
 export const Hero = () => {
   return (
-    <div
-      className="hero min-h-screen"
-      style={{ backgroundImage: `url(${background})` }}
-    >
+    <div className="hero min-h-screen" >
+      <video
+        autoPlay
+        muted
+        loop
+        style={{
+          position: "absolute",
+          width: "100%",
+          left: "50%",
+          top: "50%",
+          height: "100%",
+          objectFit: "cover",
+          transform: "translate(-50%, -50%)",
+          zIndex: "-1",
+        }}
+        src={presentation}
+      ></video>
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md mx-auto">

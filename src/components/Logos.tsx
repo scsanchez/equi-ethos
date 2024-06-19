@@ -1,7 +1,7 @@
-import lacueva from "../assets/images/logos/lacueva.jpg";
-import CRJ from "../assets/images/logos/Logo CRJ.png";
-import cruzroja from "../assets/images/logos/logo-cruz-roja.png";
-import cathedra from "../assets/images/logos/cathedra.png";
+import lacueva from "../assets/images/logos/logo-la-cueva.webp";
+import CRJ from "../assets/images/logos/logo-cruz-roja-juventud.webp";
+import cruzroja from "../assets/images/logos/logo-cruz-roja.webp";
+import cathedra from "../assets/images/logos/logo-cathedra.webp";
 
 export const Logos = () => {
   return (
