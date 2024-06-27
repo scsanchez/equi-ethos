@@ -1,5 +1,5 @@
-import email from "../assets/images/email.svg";
-import instagram from "../assets/images/instagram.svg";
+import email from "../assets/images/email-logo.svg";
+import instagram from "../assets/images/instagram-logo.svg";
 import cruzados from "../assets/images/cruzado.svg";
 
 const Contact = () => {
@@ -12,15 +12,15 @@ const Contact = () => {
     },
     {
       icon: instagram,
-      title: "Instagram",
-      desription: `Nuestro perfil de Instagram`,
+      title: "Escribenos en Instagram",
+      desription: `@equiethos`,
       url: "https://www.instagram.com/equiethos/",
     },
   ];
   return (
     <>
       <div>
-        {" "}
+      
         <div className="md:w-100 mx-auto text-center my-24">
           <div
             id="contact"
@@ -28,6 +28,13 @@ const Contact = () => {
           >
             Contacta con nosotros
           </div>
+
+          <div className="mt-10 text-xl">
+            <p>¿Te gustaría que participasemos o colaborasemos contigo?</p>
+            <p>¡Contacta con nosotras aquí abajo!</p>
+          </div>
+          {" "}
+
           <div style={{ display: "flex", justifyContent: "center" }}>
             <img
               src={cruzados}
@@ -35,19 +42,16 @@ const Contact = () => {
               style={{ width: "70%", height: "70%" }}
             />
           </div>
-          <div className="mt-10 text-xl">
-            <p>¿Te gustaría que participasemos o colaborasemos contigo?</p>
-            <p>¡Contacta con nosotras aquí abajo!</p>
-          </div>
+   
         </div>
         {/* Cards */}
         <div className="container mx-auto my-12 h-auto">
-          <div className="flex gap-5 justify-center flex-wrap h-auto lg:flex-nowrap ">
+          <div className="flex justify-center">
             {contactTab.map((x, index) => {
               return (
                 <div
                   key={index}
-                  className="card group shadow-xl hover:blue-300 hover:ring-sky-500"
+                  className="card group shadow-xl w-75 h-75"
                 >
                   <div className="card-body group items-center flex-grow-0 text-center ">
                     <img

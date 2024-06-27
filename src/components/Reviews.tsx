@@ -16,11 +16,10 @@ export const Reviews = () => {
             className="display"
             style={{
               backgroundImage: `url(${whatsappwallpaper})`,
-              objectFit: "fill",
+              backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
-            }}
-          >
+            }}>
             <div className="artboard artboard-demo phone-1">
               <div className="chat chat-start">
                 <div className="chat-header">Jean Patrick Valcourt</div>

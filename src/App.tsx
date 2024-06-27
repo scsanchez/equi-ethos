@@ -8,7 +8,6 @@ import Navbar from "./components/Navbar";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Reviews from "./components/Reviews";
-import Services from "./components/Services";
 import "./App.css";
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
       <Cards />
       <Projects />
       <Reviews />
-      <Services />
       <Contact />
       <Logos />
       <Footer />

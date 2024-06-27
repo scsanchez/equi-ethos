@@ -32,7 +32,7 @@ export const Profile = () => {
         <span className="font-bold text-xl">Sergio Carrascal. </span>
           Músico graduado en el Conservatorio Profesional de
           Música de Salamanca. Biólogo (USAL). Organizador y colaborador en varios ensembles y grupos de
-          música de cámara. Clarinetista en la banda de música Tomás Bretón y músico de la compañía de Teatro Playback “Entrespejos” desde 2017.
+          música de cámara. Clarinetista en la banda de música Tomás Bretón. Músico de la compañía de Teatro Playback “Entrespejos” desde 2017.
           </p>
         </div>
       </div>
