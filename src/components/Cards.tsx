@@ -35,13 +35,13 @@ export const Cards = () => {
       {ourFundamentals.map((fundamental) => (
         <div
           key={fundamental.title}
-          className="card w-96 h-100 bg-base-100 shadow-xl mx-4 my-4"
+          className="card bg-white text-black w-96 h-100 bg-base-100 shadow-xl mx-4 my-4"
         >
-          <figure className="">
+          <figure>
             <img
               src={fundamental.image}
               alt={fundamental.title}
-              className="rounded w-24 h-24"
+              className="rounded w-24 h-24 mt-10"
             />
           </figure>
           <div className="card-body items-center ">

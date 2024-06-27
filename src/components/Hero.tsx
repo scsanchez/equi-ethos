@@ -1,23 +1,23 @@
-import background from "../assets/images/juntos.svg";
 import presentation from "../assets/wey.mp4";
 
 export const Hero = () => {
   return (
     <div className="hero min-h-screen" >
-      <video
+     <video
         autoPlay
         muted
         loop
         style={{
           position: "absolute",
+          // Establece el ancho y la altura al 100% por defecto
           width: "100%",
+          height: "100%",
           left: "50%",
           top: "50%",
-          height: "100%",
           objectFit: "cover",
           transform: "translate(-50%, -50%)",
           zIndex: "-1",
-        }}
+            }}
         src={presentation}
       ></video>
       <div className="hero-overlay bg-opacity-60"></div>

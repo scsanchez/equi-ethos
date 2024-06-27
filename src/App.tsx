@@ -13,7 +13,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="smoothscroll">
+    <>
       <Navbar />
       <Hero />
       <History />
@@ -25,7 +25,7 @@ function App() {
       <Contact />
       <Logos />
       <Footer />
-    </div>
+    </>
   );
 }
 
