@@ -48,12 +48,12 @@ const Contact = () => {
           </div>
           {/* Cards */}
           <div className="container mx-auto h-auto">
-            <div className="flex justify-center gap-10 py-8 ">
+            <div className="flex justify-center gap-10 py-8 flex-wrap">
               {contactTab.map((x, index) => {
                 return (
                   <div
                     key={index}
-                    className="card group shadow-xl w-100 h-100 dark:bg-white dark:text-black hover:scale-110"
+                    className="card group shadow-xl w-full sm:w-auto md:w-1/3 lg:w-1/4 xl:w-1/5 h-auto dark:bg-white dark:text-black hover:scale-110"
                   >
                     <div className="card-body group items-center flex-grow-0 text-center ">
                       <video
@@ -69,7 +69,7 @@ const Contact = () => {
                       ></video>
 
                       <div>
-                        <p className=" text-lg font-semibold">{x.desription}</p>
+                        <p className="text-lg font-semibold">{x.description}</p>
                       </div>
                     </div>
                   </div>
