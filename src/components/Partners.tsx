@@ -8,7 +8,7 @@ export const Partners = () => {
     <>
       <section className="bg-gray-200">
         <div className="text-center py-5">
-          <h1 className="text-xl md:text-2xl font-bold mb-4">
+          <h1 className="text-xl md:text-2xl font-bold dark:text-black mb-4">
             Hemos trabajado con:{" "}
           </h1>
           <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8  ">

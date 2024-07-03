@@ -27,7 +27,7 @@ export const Hero = () => {
             <div className="max-w-md mx-auto">
               <a
                 href="#"
-                className="flex items-center justify-center py-5 px-2 text-white hover:text-blue-300"
+                className="flex items-center justify-center py-5 px-2 text-white hover:text-blue-400"
               >
                 <span className="font-vibes text-8xl">Equi-ethos</span>
               </a>

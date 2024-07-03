@@ -4,7 +4,7 @@ export const Reviews = () => {
   return (
     <>
       <section id="reviews" className="bg-gray-200">
-        <div className="font-bold text-8xl text-center py-16">
+        <div className="font-bold text-8xl text-center dark:text-black py-16">
           Reviews
         </div>
         <div className="flex justify-center items-center h-screen">

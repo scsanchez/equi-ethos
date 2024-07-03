@@ -1,5 +1,6 @@
 import rocio from "../assets/images/rocio.webp";
 import sergio from "../assets/images/sergio.webp";
+import "./WhoWeAre.css";
 
 export const WhoWeAre = () => {
   return (
@@ -13,7 +14,15 @@ export const WhoWeAre = () => {
             <img
               src={rocio}
               alt="Rocío Gentil"
-              style={{ width: "70%", height: "70%" }}
+              className="image-hover"
+              style={{
+                width: "60%",
+                height: "60%",
+                borderRadius: "50%",
+                border: "5px solid grey",
+                objectFit: "contain",
+                backgroundColor: "white",
+              }}
             />
             <p className="ml-1 mt-4">
               <span className="font-bold text-xl">Mª del Rocío Gentil. </span>
@@ -30,7 +39,15 @@ export const WhoWeAre = () => {
             <img
               src={sergio}
               alt="Sergio Carrascal"
-              style={{ width: "70%", height: "70%" }}
+              className="image-hover"
+              style={{
+                width: "60%",
+                height: "60%",
+                borderRadius: "50%",
+                border: "5px solid grey",
+                objectFit: "contain",
+                backgroundColor: "white",
+              }}
             />
             <p className="ml-1 mt-4">
               <span className="font-bold text-xl">Sergio Carrascal. </span>
