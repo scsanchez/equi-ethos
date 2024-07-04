@@ -1,6 +1,25 @@
-import presentation from "../assets/wey.mp4";
+import { useState, useEffect } from "react";
+
+import introFull from "../assets/video/intro-full.mp4";
+import introResize from "../assets/video/intro-resize.mp4";
 
 export const Hero = () => {
+  const [videoSource, setVideoSource] = useState(introFull);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 1044) {
+        setVideoSource(introResize);
+      } else {
+        setVideoSource(introFull);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <>
       <section>
@@ -11,7 +30,6 @@ export const Hero = () => {
             loop
             style={{
               position: "absolute",
-              // Establece el ancho y la altura al 100% por defecto
               width: "100%",
               height: "100%",
               left: "50%",
@@ -20,7 +38,7 @@ export const Hero = () => {
               transform: "translate(-50%, -50%)",
               zIndex: "-1",
             }}
-            src={presentation}
+            src={videoSource}
           ></video>
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-center text-neutral-content">

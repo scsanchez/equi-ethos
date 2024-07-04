@@ -1,20 +1,19 @@
-import email from "../assets/images/email-logo.svg";
-import instagram from "../assets/images/instagram-logo.svg";
 import cruzados from "../assets/images/cruzados.webp";
-import instagramm from "../assets/images/Instagram.mp4";
-import instagram2 from "../assets/images/Instagram2.mp4";
-import mail from "../assets/images/Mail.mp4";
+import instagramLogo from "../assets/video/instagram-logo.mp4";
+import emailLogo from "../assets/video/email-logo.mp4";
+import "./Contact.css";
+
 
 const Contact = () => {
   const contactTab = [
     {
-      icon: mail,
-      desription: `equiethos@gmail.com`,
+      icon: emailLogo,
+      description: `equiethos@gmail.com`,
       url: "mailto:equiethos@gmail.com",
     },
     {
-      icon: instagram2,
-      desription: `@equiethos`,
+      icon: instagramLogo,
+      description: `@equiethos`,
       url: "https://www.instagram.com/equiethos/",
     },
   ];
@@ -35,6 +34,7 @@ const Contact = () => {
               <img
                 src={cruzados}
                 alt="Rocío Gentil y Sergio Carrascal"
+                className="image-hover"
                 style={{
                   width: "20%",
                   height: "20%",

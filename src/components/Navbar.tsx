@@ -4,7 +4,7 @@ const Navbar = () => {
       <div className="flex">
         <a
           href="#"
-          className="btn btn-ghost text-xl font-vibes dark:text-black"
+          className="btn btn-ghost text-xl font-vibes dark:text-black dark:hover:text-blue-400"
         >
           Equi-ethos
         </a>
@@ -16,10 +16,10 @@ const Navbar = () => {
           </li>
           <li>
             <details>
-              <summary className="pr-8">Proyecto</summary>
+              <summary>Proyecto</summary>
               <ul className="p-2 bg-base-100 rounded-t-none dark:bg-gray-200 ">
                 <li>
-                  <a href="#whoweare">¿Quienes somos?</a>
+                  <a href="#whoweare">¿Quiénes somos?</a>
                 </li>
                 <li>
                   <a href="#whatwedo">¿Qué hacemos?</a>

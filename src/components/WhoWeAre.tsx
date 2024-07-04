@@ -7,7 +7,7 @@ export const WhoWeAre = () => {
     <>
       <section id="whoweare" className="">
         <div className="font-bold text-8xl text-center w-full py-16">
-          ¿Quienes somos?
+          ¿Quiénes somos?
         </div>
         <div className="flex flex-col w-full lg:flex-row leading-10">
           <div className="flex-1 h-auto card  rounded-box place-items-center p-3 text-justify ml-3 mr-3">
