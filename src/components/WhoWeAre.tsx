@@ -13,16 +13,9 @@ export const WhoWeAre = () => {
           <div className="flex-1 h-auto card  rounded-box place-items-center p-3 text-justify ml-3 mr-3">
             <img
               src={rocio}
-              alt="Rocío Gentil"
-              className="image-hover"
-              style={{
-                width: "60%",
-                height: "60%",
-                borderRadius: "50%",
-                border: "5px solid grey",
-                objectFit: "contain",
-                backgroundColor: "white",
-              }}
+              alt="Mª del Rocío Gentil"
+              title="Mª del Rocío Gentil"
+              className="profile-image image-hover"
             />
             <p className="ml-1 mt-4">
               <span className="font-bold text-xl">Mª del Rocío Gentil. </span>
@@ -39,15 +32,8 @@ export const WhoWeAre = () => {
             <img
               src={sergio}
               alt="Sergio Carrascal"
-              className="image-hover"
-              style={{
-                width: "60%",
-                height: "60%",
-                borderRadius: "50%",
-                border: "5px solid grey",
-                objectFit: "contain",
-                backgroundColor: "white",
-              }}
+              className="profile-image image-hover"
+              title="Sergio Carrascal"
             />
             <p className="ml-1 mt-4">
               <span className="font-bold text-xl">Sergio Carrascal. </span>

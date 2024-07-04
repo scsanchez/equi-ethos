@@ -1,7 +1,16 @@
 .image-hover {
-    transition: transform 0.3s ease; /* Añade una transición suave */
-  }
-  
-  .image-hover:hover {
-    transform: scale(1.1); /* Cambia el tamaño de la imagen al pasar el mouse */
-  }
+  transition: transform 0.3s ease;
+}
+
+.image-hover:hover {
+  transform: scale(1.1);
+}
+
+.profile-image {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  border: 5px solid grey;
+  object-fit: contain;
+  background-color: white;
+}

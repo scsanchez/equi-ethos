@@ -3,8 +3,10 @@ import { useState, useEffect } from "react";
 import introFull from "../assets/video/intro-full.mp4";
 import introResize from "../assets/video/intro-resize.mp4";
 
+import "./Hero.css";
+
 export const Hero = () => {
-  const [videoSource, setVideoSource] = useState(introFull);
+  const [videoSource, setVideoSource] = useState(introResize);
 
   useEffect(() => {
     const handleResize = () => {
@@ -28,16 +30,7 @@ export const Hero = () => {
             autoPlay
             muted
             loop
-            style={{
-              position: "absolute",
-              width: "100%",
-              height: "100%",
-              left: "50%",
-              top: "50%",
-              objectFit: "cover",
-              transform: "translate(-50%, -50%)",
-              zIndex: "-1",
-            }}
+            className="landing-video"
             src={videoSource}
           ></video>
           <div className="hero-overlay bg-opacity-60"></div>
