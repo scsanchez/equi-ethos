@@ -2,7 +2,7 @@ export const History = () => {
   return (
     <>
       <section id="history" className="bg-gray-200">
-        <div className="">
+        <div>
           <div className="font-bold text-8xl text-center dark:text-black py-16">
             Nuestra historia
           </div>

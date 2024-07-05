@@ -30,7 +30,7 @@ const Contact = () => {
                 src={cruzados}
                 alt="Mª del Rocío Gentil y Sergio Carrascal"
                 title="Sergio Carrascal y Mª del Rocío Gentil"
-                className="profile-image"
+                className="together-profile-image"
               />
             </div>
           </div>
