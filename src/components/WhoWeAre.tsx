@@ -32,7 +32,7 @@ export const WhoWeAre = () => {
             <img
               src={sergio}
               alt="Sergio Carrascal"
-              className="profile-image image-hover"
+              className="profile-image"
               title="Sergio Carrascal"
             />
             <p className="mx-1 mt-4">

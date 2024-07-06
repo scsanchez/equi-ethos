@@ -1,3 +1,5 @@
+import "./History.css";
+
 export const History = () => {
   return (
     <>
@@ -8,14 +10,14 @@ export const History = () => {
           </div>
           <div className="flex justify-center items-center">
             <div className="flex flex-col items-start md:w-1/3 p-3 font-lato dark:text-black leading-10">
-              <p className="mb-8">
+              <p className="history-paragraph">
                 En 2021, el proyecto comienza bajo el nombre{" "}
                 <span className="font-bold">
                   Música y Emociones
                 </span>
                 .{" "}
               </p>
-              <p className="mb-10">
+              <p className="history-paragraph">
                 Por aquel entonces, el objetivo era explorar el mundo emocional
                 a través de la música y utilizarla como una herramienta para
                 gestionar las emociones. La idea se origina por las experiencias
@@ -27,7 +29,7 @@ export const History = () => {
                 entonces, hemos preparado y presentado numerosos talleres,
                 realizándolos con éxito durante los siguientes años.
               </p>
-              <p className="mb-8">
+              <p className="history-paragraph">
                 A principios de 2024, el proyecto evoluciona y adopta un nuevo
                 nombre
                 <span className="font-vibes font-bold text-2xl">
@@ -36,7 +38,7 @@ export const History = () => {
                 </span>
               </p>
 
-              <p className="mb-8">
+              <p className="history-paragraph">
                 Con esta transformación buscamos ir más allá de nuestras
                 actividades iniciales, incorporando la reflexión y la filosofía
                 en nuestras propuestas. La idea se inspira en nuestro tiempo
@@ -46,7 +48,7 @@ export const History = () => {
                 </span>
                 .
               </p>
-              <p className="mb-8">
+              <p className="history-paragraph">
                 Durante este período, hemos presentado talleres con éxito,
                 integrando estos nuevos elementos y enriqueciendo nuestras
                 ofertas. Así, el proyecto que comenzó como una exploración
