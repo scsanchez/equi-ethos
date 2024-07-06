@@ -1,4 +1,4 @@
-import whatsappwallpaper from "../assets/images/wa-wallpaper.png";
+import whatsappwallpaper from "../assets/images/wa-wallpaper.webp";
 
 export const Reviews = () => {
   return (

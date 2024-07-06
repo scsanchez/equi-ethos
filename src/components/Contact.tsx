@@ -36,7 +36,7 @@ const Contact = () => {
           </div>
           <div className="my-10 text-xl text-center">
             <p>¿Te gustaría que participasemos o colaborasemos contigo?</p>
-            <p>¡Contacta con nosotras aquí abajo!</p>
+            <p>¡Contacta con nosotros aquí abajo!</p>
           </div>
           {/* Cards */}
           <div className="container mx-auto h-auto">

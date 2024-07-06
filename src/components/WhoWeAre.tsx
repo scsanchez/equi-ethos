@@ -5,19 +5,19 @@ import "./WhoWeAre.css";
 export const WhoWeAre = () => {
   return (
     <>
-      <section id="whoweare" className="">
+      <section id="whoweare">
         <div className="font-bold text-8xl text-center w-full py-16">
           ¿Quiénes somos?
         </div>
         <div className="flex flex-col w-full lg:flex-row leading-10">
-          <div className="flex-1 h-auto card  rounded-box place-items-center p-3 text-justify ml-3 mr-3">
+          <div className="flex-1 h-auto card  rounded-box place-items-center p-3 ml-3 mr-3">
             <img
               src={rocio}
               alt="Mª del Rocío Gentil"
               title="Mª del Rocío Gentil"
-              className="profile-image image-hover"
+              className="profile-image"
             />
-            <p className="ml-1 mt-4">
+            <p className="mx-1 mt-4">
               <span className="font-bold text-xl">Mª del Rocío Gentil. </span>
               Psicóloga especializada en intervención criminológica y
               victimológica. Psico/sociodramatista. Colegiada en el Colegio
@@ -28,14 +28,14 @@ export const WhoWeAre = () => {
             </p>
           </div>
           <div className="divider lg:divider-horizontal"></div>
-          <div className="flex-1 h-auto card  rounded-box place-items-center p-3 ml-3 mr-3">
+          <div className="flex-1 h-auto card rounded-box place-items-center p-3 ml-3 mr-3">
             <img
               src={sergio}
               alt="Sergio Carrascal"
               className="profile-image image-hover"
               title="Sergio Carrascal"
             />
-            <p className="ml-1 mt-4">
+            <p className="mx-1 mt-4">
               <span className="font-bold text-xl">Sergio Carrascal. </span>
               Músico graduado en el Conservatorio Profesional de Música de
               Salamanca. Biólogo (USAL). Organizador y colaborador en varios

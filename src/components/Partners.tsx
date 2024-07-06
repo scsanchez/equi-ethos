@@ -6,7 +6,7 @@ import cathedra from "../assets/images/logos/logo-cathedra.webp";
 export const Partners = () => {
   return (
     <>
-      <section className="bg-gray-200">
+      <section id="partners" className="bg-gray-200">
         <div className="text-center py-5">
           <h1 className="text-xl md:text-2xl font-bold dark:text-black mb-4">
             Hemos trabajado con:{" "}
