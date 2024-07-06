@@ -1,17 +1,17 @@
 import cruzados from "../assets/images/cruzados.webp";
-import instagramLogo from "../assets/video/instagram-logo.mp4";
-import emailLogo from "../assets/video/email-logo.mp4";
+import instagramIcon from "../assets/images/icons/instagram-icon.webp";
+import emailIcon from "../assets/images/icons/mail-icon.webp";
 import "./Contact.css";
 
 const Contact = () => {
   const contactTab = [
     {
-      icon: emailLogo,
+      icon: emailIcon,
       description: `equiethos@gmail.com`,
       url: "mailto:equiethos@gmail.com",
     },
     {
-      icon: instagramLogo,
+      icon: instagramIcon,
       description: `@equiethos`,
       url: "https://www.instagram.com/equiethos/",
     },
@@ -48,9 +48,8 @@ const Contact = () => {
                     className="card group shadow-2xl w-full sm:w-auto md:w-1/3 lg:w-1/4 xl:w-1/5 h-auto dark:bg-white dark:text-black hover:scale-110"
                   >
                     <div className="card-body group items-center flex-grow-0 text-center ">
-                      <video
-                        autoPlay
-                        loop
+                      <img
+                        
                         className="card-title w-24 h-24 p-2"
                         src={x.icon}
                         onClick={() => {
@@ -58,7 +57,7 @@ const Contact = () => {
                             window.location.href = x.url;
                           }
                         }}
-                      ></video>
+                        />
 
                       <div>
                         <p className="text-lg font-semibold">{x.description}</p>
