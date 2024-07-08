@@ -33,7 +33,7 @@ const ourFundamentals = [
 export const WhatWeDo = () => {
   return (
     <section id="whatwedo" className="bg-gray-200">
-      <div className="font-bold text-8xl text-center w-full dark:text-black py-16">
+      <div className="font-bold text-8xl text-center dark:text-black py-16">
         ¿Qué hacemos?
       </div>
       <div className="container mx-auto h-auto">

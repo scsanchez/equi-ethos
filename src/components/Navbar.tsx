@@ -15,8 +15,8 @@ const Navbar = () => {
             <a href="#contact">Contacta</a>
           </li>
           <li>
-            <details>
-              <summary>Proyecto</summary>
+          <details className="details-menu">
+          <summary>Proyecto</summary>
               <ul className="p-2 bg-base-100 rounded-t-none dark:bg-gray-200 ">
                 <li>
                   <a href="#whoweare">¿Quiénes somos?</a>
