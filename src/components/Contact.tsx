@@ -22,16 +22,8 @@ const Contact = () => {
       <section id="contact" className="">
         <div>
           <div className="md:w-100 mx-auto text-center">
-            <div className="font-bold text-8xl text-center w-full py-16">
+            <div className="font-bold text-8xl text-center w-full pt-16">
               Contacta con nosotros
-            </div>
-            <div style={{ display: "flex", justifyContent: "center" }}>
-              <img
-                src={cruzados}
-                alt="Mª del Rocío Gentil y Sergio Carrascal"
-                title="Sergio Carrascal y Mª del Rocío Gentil"
-                className="together-profile-image"
-              />
             </div>
           </div>
           <div className="my-10 text-xl text-center">
@@ -49,7 +41,6 @@ const Contact = () => {
                   >
                     <div className="card-body group items-center flex-grow-0 text-center ">
                       <img
-                        
                         className="card-title w-24 h-24 p-2"
                         src={x.icon}
                         onClick={() => {
@@ -57,7 +48,7 @@ const Contact = () => {
                             window.location.href = x.url;
                           }
                         }}
-                        />
+                      />
 
                       <div>
                         <p className="text-lg font-semibold">{x.description}</p>
@@ -67,6 +58,17 @@ const Contact = () => {
                 );
               })}
             </div>
+          </div>
+          <div
+            className="py-6"
+            style={{ display: "flex", justifyContent: "center" }}
+          >
+            <img
+              src={cruzados}
+              alt="Mª del Rocío Gentil y Sergio Carrascal"
+              title="Sergio Carrascal y Mª del Rocío Gentil"
+              className="together-profile-image "
+            />
           </div>
         </div>
       </section>

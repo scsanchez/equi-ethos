@@ -1,4 +1,4 @@
-import introFull from "../assets/video/intro-full.mp4";
+import introResized from "../assets/video/intro-resize.mp4";
 import "./Hero.css";
 
 export const Hero = () => {
@@ -11,7 +11,7 @@ export const Hero = () => {
             muted
             loop
             className="landing-video"
-            src={introFull}
+            src={introResized}
           ></video>
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-center text-neutral-content">

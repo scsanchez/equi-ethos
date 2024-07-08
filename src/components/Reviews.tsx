@@ -7,7 +7,7 @@ export const Reviews = () => {
         <div className="font-bold text-8xl text-center dark:text-black py-16">
           Reviews
         </div>
-        <div className="flex justify-center items-center h-screen">
+        <div className="flex justify-center items-center pb-8">
           <div className="mockup-phone border-primary">
             <div className="camera"></div>
             <div
