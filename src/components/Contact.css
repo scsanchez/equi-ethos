@@ -9,8 +9,17 @@
 .together-profile-image {
   width: 20%;
   height: 20%;
-  border-radius: 50%;
   border: 5px solid grey;
+  border-radius: 50%;
   object-fit: contain;
   background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .together-profile-image {
+    width: auto;
+    height: auto;
+    padding: auto;
+    margin:auto;
+  }
 }
