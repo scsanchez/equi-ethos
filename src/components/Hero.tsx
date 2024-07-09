@@ -1,27 +1,7 @@
-import { useState, useEffect } from "react";
-
-import introFull from "../assets/video/intro-full.mp4";
-import introResize from "../assets/video/intro-resize.mp4";
-
+import introResized from "../assets/video/intro-resize.mp4";
 import "./Hero.css";
 
 export const Hero = () => {
-  const [videoSource, setVideoSource] = useState(introResize);
-
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth < 1044) {
-        setVideoSource(introResize);
-      } else {
-        setVideoSource(introFull);
-      }
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
   return (
     <>
       <section>
@@ -31,7 +11,7 @@ export const Hero = () => {
             muted
             loop
             className="landing-video"
-            src={videoSource}
+            src={introResized}
           ></video>
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-center text-neutral-content">

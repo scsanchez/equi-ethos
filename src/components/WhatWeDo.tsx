@@ -33,27 +33,29 @@ const ourFundamentals = [
 export const WhatWeDo = () => {
   return (
     <section id="whatwedo" className="bg-gray-200">
-      <div className="font-bold text-8xl text-center w-full dark:text-black py-16">
-        ¿Qué hacemos?
-      </div>
-      <div className="container mx-auto h-auto">
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-8">
-          {ourFundamentals.map((fundamental) => (
-            <div className="card bg-base-100 shadow-xl dark:bg-white dark:text-black hover:scale-105 w-80 h-96 mb-8">
-              <figure>
-                <img
-                  src={fundamental.image}
-                  alt={fundamental.title}
-                  className="rounded w-24 h-24 mt-10"
-                />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">{fundamental.title}</h2>
-                <p>{fundamental.description}</p>
-                <div className="card-actions justify-center mt-auto"></div>
+      <div>
+        <div className="font-bold text-8xl text-center dark:text-black py-16">
+          ¿Qué hacemos?
+        </div>
+        <div className="container mx-auto h-auto">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-8">
+            {ourFundamentals.map((fundamental) => (
+              <div className="card bg-base-100 shadow-xl dark:bg-white dark:text-black hover:scale-105 w-80 h-96 mb-8">
+                <figure>
+                  <img
+                    src={fundamental.image}
+                    alt={fundamental.title}
+                    className="rounded w-24 h-24 mt-10"
+                  />
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title">{fundamental.title}</h2>
+                  <p>{fundamental.description}</p>
+                  <div className="card-actions justify-center mt-auto"></div>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </section>

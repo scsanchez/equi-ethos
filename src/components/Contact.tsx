@@ -22,9 +22,10 @@ const Contact = () => {
       <section id="contact" className="">
         <div>
           <div className="md:w-100 mx-auto text-center">
-            <div className="font-bold text-8xl text-center w-full py-16">
+            <div className="font-bold text-8xl text-center w-full pt-16">
               Contacta con nosotros
             </div>
+<<<<<<< HEAD
             <div style={{ display: "flex", justifyContent: "center" }}>
               <img
                 src={cruzados}
@@ -33,6 +34,8 @@ const Contact = () => {
                 className="together-profile-image w-2/3 sm:w-full md:w-2/3 mx-auto"
               />
             </div>
+=======
+>>>>>>> 882cd3e5d37fba0d4d7d9b987410156ccceadeb6
           </div>
           <div className="my-10 text-xl text-center">
             <p>¿Te gustaría que participasemos o colaborasemos contigo?</p>
@@ -49,7 +52,6 @@ const Contact = () => {
                   >
                     <div className="card-body group items-center flex-grow-0 text-center ">
                       <img
-                        
                         className="card-title w-24 h-24 p-2"
                         src={x.icon}
                         onClick={() => {
@@ -57,7 +59,7 @@ const Contact = () => {
                             window.location.href = x.url;
                           }
                         }}
-                        />
+                      />
 
                       <div>
                         <p className="text-lg font-semibold">{x.description}</p>
@@ -67,6 +69,17 @@ const Contact = () => {
                 );
               })}
             </div>
+          </div>
+          <div
+            className="py-6"
+            style={{ display: "flex", justifyContent: "center" }}
+          >
+            <img
+              src={cruzados}
+              alt="Mª del Rocío Gentil y Sergio Carrascal"
+              title="Sergio Carrascal y Mª del Rocío Gentil"
+              className="together-profile-image "
+            />
           </div>
         </div>
       </section>

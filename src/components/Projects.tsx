@@ -2,7 +2,7 @@ export const Projects = () => {
   return (
     <>
       <section id="workshops" className="">
-        <div className="font-bold text-8xl text-center dark:text-black py-16">
+        <div className="font-bold text-8xl text-center py-16">
           Nuestros talleres
         </div>
         <div className="w-4/5 mx-auto">
