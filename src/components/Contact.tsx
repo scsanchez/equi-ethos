@@ -25,17 +25,6 @@ const Contact = () => {
             <div className="font-bold text-8xl text-center w-full pt-16">
               Contacta con nosotros
             </div>
-<<<<<<< HEAD
-            <div style={{ display: "flex", justifyContent: "center" }}>
-              <img
-                src={cruzados}
-                alt="Mª del Rocío Gentil y Sergio Carrascal"
-                title="Sergio Carrascal y Mª del Rocío Gentil"
-                className="together-profile-image w-2/3 sm:w-full md:w-2/3 mx-auto"
-              />
-            </div>
-=======
->>>>>>> 882cd3e5d37fba0d4d7d9b987410156ccceadeb6
           </div>
           <div className="my-10 text-xl text-center">
             <p>¿Te gustaría que participasemos o colaborasemos contigo?</p>
