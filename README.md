@@ -1,4 +1,3 @@
-```markdown
 # Equi-Ethos
 
 Este es el repositorio del proyecto **Equi-Ethos**, desarrollado con [Vite](https://vitejs.dev/), una herramienta rápida para la construcción de aplicaciones web modernas. Este proyecto puede ser utilizado como punto de partida para desarrollar tu propia aplicación.
