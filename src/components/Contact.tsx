@@ -9,11 +9,13 @@ const Contact = () => {
       icon: emailIcon,
       description: `equiethos@gmail.com`,
       url: "mailto:equiethos@gmail.com",
+      alt: "Email",
     },
     {
       icon: instagramIcon,
       description: `@equiethos`,
       url: "https://www.instagram.com/equiethos/",
+      alt: "Instagram",
     },
   ];
 
@@ -43,6 +45,7 @@ const Contact = () => {
                       <img
                         className="card-title w-24 h-24 p-2"
                         src={x.icon}
+                        alt={x.alt}
                         onClick={() => {
                           if (x.url) {
                             window.location.href = x.url;
